@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+    <div class="container">
+        <div class="header">
+           
+            <ul>
+                <li><a href="#home">Home
+
+                    </a>
+                </li>
+
+                <li><a href="#about">About</a> </li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+      
+        </div>
+        <!-- Home--------------------------------------------------------------------- -->
+        <div class="body" id="home">
+            <div class="content">
+
+                <p>
+
+                <h1> Hi, I'm <span style="color: rgb(255, 0, 0);">Sameen</span>
+                </h1>
+                <h3>Computer System</h3>
+                <h2 data-text="Engineer">Engineer</h2>
+                </p>
+
+                <div class="btn-box">
+
+                    <a href="Sameen_Resume.pdf" download>Download CV</a>
+                </div>
+              
+            </div>
+            <div class="home-sci">
+                <a href="https://www.youtube.com/channel/UCMukLEcm6d5m6mNlu06AU4A" target="_blank"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/in/engr-sameen-afzal-ahmed-028751234/" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></i></a>
+                <a href="https://www.facebook.com/alinashahkhan?mibextid=ZbWKwL" target="_blank"><i
+                        class="fa-brands fa-facebook"></i></a>
+            </div>
+   <!-- About ------------------------------------------------------------------------------->
+            <div id="about">
+                <a href="#about"></a>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-1">
+                            <img src="mylogo.png" alt="logo">
+                        </div>
+                        <div class="col-2">
+                            <div class="sub_title">About me</div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi enim vero iste
+                                pariatur dolore magnam illum laudantium velit dolor,
+                                consequuntur beatae, accusamus ipsum unde sapiente autem? Vitae, numquam voluptatem.</p>
+                            <div class="tab_titles">
+                                <p class="tab_links active_link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab_links" onclick="opentab('experience')" >Experience</p>
+                                <p class="tab_links" onclick="opentab('education')">Education</p>
+                        
+                            </div>
+                            <div class="tab_contents active_tab" id="skills">
+                                <ul>
+                                    <span>Web Development</span><br>Html css js (Angular & React) <br>
+                                    <span>UI/UX</span><br>Designing web/App interfaces <br>
+                                    <span>SQA</span><br>Maintain Quality of softawres</ul>
+                            </div>
+                            <div class="tab_contents" id="experience">
+                                <ul>
+                                    <span>2023-current</span><br>Internship at Synergates business solution <br>
+                                    <span>2022-2023</span> Cyber security course<br><br>
+                                    <span>2021-2022</span><br>Envolved in Hardware Projects 
+                                </ul>
+                            </div>
+                            <div class="tab_contents" id="education">
+                                <ul>
+                                    <span>Graduated</span><br>Usman Institute of Technology (NED) <br>
+                                    <span>HSSC</span><br>Part (I-II)<br>
+                                    <span>SCC</span><br>Part(I-II)</ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+            </div>
+
+        </div>
+    <!-- services ---------------------------------------------------------------------------->
+     <div id="services">
+        <div class="container">
+            <div class="sub-title">My services</div>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h6 class="grid">Web Design</h6>
+                    
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Maiores consectetur eveniet voluptates obcaecati maxime reiciendis itaque dolore dolor vero sed illum voluptate quia alias laboriosam nisi, doloremque accusantium saepe? Consequatur!
+                    </p><a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h6 class="grid">UI/UX</h6>
+                    
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Maiores consectetur eveniet voluptates obcaecati maxime reiciendis itaque dolore dolor vero sed illum voluptate quia alias laboriosam nisi, doloremque accusantium saepe? Consequatur!
+                        </p><a href="#">Learn more</a></p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <h6 class="grid">SQA</h6>
+                    
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Maiores consectetur eveniet voluptates obcaecati maxime reiciendis itaque dolore dolor vero sed illum voluptate quia alias laboriosam nisi, doloremque accusantium saepe? Consequatur!
+                       </p> <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+     </div>
+
+
+    </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/15f311316f.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+ <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- Reference -->
+<!-- https://www.youtube.com/watch?v=0YFrGy_mzjY -->
